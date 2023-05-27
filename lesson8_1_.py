@@ -1,6 +1,5 @@
 import requests
 import pandas as pd
-
 url = 'https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json'
 response = requests.request('GET',url)
 if response.status_code == 200:
