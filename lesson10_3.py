@@ -1,4 +1,4 @@
-#多選一
+
 import streamlit as st
 
 genre = st.radio("您喜歡的節目是什麼",('卡通','戲劇','愛情'))

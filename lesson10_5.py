@@ -1,5 +1,3 @@
-#多選項
-import streamlit as st
 
 import streamlit as st
 
