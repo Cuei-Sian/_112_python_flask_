@@ -33,9 +33,4 @@ mask = dataFrame1['行政區'] == option
 dataFrame2 = dataFrame1[mask]
 
 st.write(option,":",len(dataFrame2.index))
-
-
-
-
-
-dataFrame1['行政區']
+st.dataframe(dataFrame2)
