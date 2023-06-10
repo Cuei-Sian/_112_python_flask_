@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-pd.read_csv('codeSearch.csv',usecols=['code','name'])
+codeFrame = pd.read_csv('codeSearch.csv',usecols=['code','name'])
 codeSeries = codeFrame['code'].astype(str) + codeFrame['name']
 
 with st.sidebar:
